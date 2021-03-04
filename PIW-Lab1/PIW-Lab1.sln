@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PIW-Lab1", "PIW-Lab1\PIW-Lab1.csproj", "{5ED623C7-C7E1-4671-8EF9-C19DA9C80F68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5ED623C7-C7E1-4671-8EF9-C19DA9C80F68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ED623C7-C7E1-4671-8EF9-C19DA9C80F68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ED623C7-C7E1-4671-8EF9-C19DA9C80F68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ED623C7-C7E1-4671-8EF9-C19DA9C80F68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA2027BC-FD73-41E7-9684-14A3E5E0F295}
+	EndGlobalSection
+EndGlobal
