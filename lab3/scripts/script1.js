@@ -137,17 +137,17 @@ const addToDoItem = (event) => {
 }
 
 const deleteHandler = (event) => {
-    $("#modal").style.display = "block";
+    $("#modal").css("display", "block");
 
     $("#cancel").off().on("click", function () {
-        $("#modal").style.display = "none";
+        $("#modal").css("display", "none");
     });
 
     $("#confirm").off().on("click", function () {
         $(parentOfDeleted) = event.target.parentElement.parentElement;
         $(lastDeleted) = $(event.target.parentElement);
         $(event.target.parentElement).remove();
-        $("#modal").style.display = "none";
+        $("#modal").css("display", "none");
     });
 }
 
