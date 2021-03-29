@@ -1,0 +1,69 @@
+﻿body {
+    background-color: darkslategrey;
+    color: whitesmoke;
+}
+
+.item > p{
+    display: inline-block;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+form{
+    width:35%;
+}
+
+form > textarea{
+}
+
+form > button{
+    width: 100%;
+    margin-top: 0.3rem;
+}
+
+.container {
+    display: inline-block;
+    width: 80%;
+}
+
+.btn-light{
+    display: inline-block;
+    margin-top: 1rem;
+    align-self: center;
+}
+
+h2 {
+    display: inline-block;
+    cursor:pointer;
+}
+
+input[type=radio]{
+    margin-top: 0.7rem;
+    display:inline-block;
+    margin-left: 1rem;
+}
+
+.form-check-input:checked {
+    background-color: #d18821;
+    border-color: #d18821;
+    outline-color: #d18821;
+}
+
+#search{
+    position: absolute;
+    width: 20%;
+    left: 60%;
+}
+
+#case-sensitivity {
+    position: absolute;
+    top: 4%;
+    left: 81%;
+    cursor:pointer;
+}
+
+#case-label {
+    position: absolute;
+    top: 3%;
+    left: 83%;
+}
