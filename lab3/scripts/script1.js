@@ -10,9 +10,9 @@ $(document).keydown(function (e) {
         if (lastDeleted === null)
             return;
 
-        $(lastDeleted[0].children[2]).on("click", (event) => { deleteHandler(event); });
+        lastDeleted[0].children[2].on("click", (event) => { deleteHandler(event); });
 
-        $(parentOfDeleted).append(lastDeleted);
+        parentOfDeleted.append(lastDeleted);
         lastDeleted = null;
         parentOfDeleted = null;
     }
@@ -144,8 +144,8 @@ const deleteHandler = (event) => {
     });
 
     $("#confirm").off().on("click", function () {
-        $(parentOfDeleted) = event.target.parentElement.parentElement;
-        $(lastDeleted) = $(event.target.parentElement);
+        parentOfDeleted = event.target.parentElement.parentElement;
+        lastDeleted = $(event.target.parentElement);
         $(event.target.parentElement).remove();
         $("#modal").css("display", "none");
     });
