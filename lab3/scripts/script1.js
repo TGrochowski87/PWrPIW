@@ -85,7 +85,10 @@ const addList = () => {
   newList.classList.add("operation-list");
 
   const header = document.createElement("h2");
-  header.innerHTML = "<h2>List</h2>";
+  header.innerHTML = `List`;
+  // header.addEventListener("click", (event) => {
+  //   hideContent(event);
+  // });
   header.onclick = (event) => {
     hideContent(event);
   };

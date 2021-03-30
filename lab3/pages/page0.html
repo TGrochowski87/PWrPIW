@@ -26,9 +26,11 @@
 </head>
 <body style="margin: 20px">
 
-    <input type="text" id="search" placeholder="Search" onkeyup="searchInLists(event)" on/>
-    <input type="checkbox" id="case-sensitivity" name="case"/>
-    <label id="case-label" for="case">Case sensitive</label>
+    <div class="search-box">
+        <input type="text" id="search" placeholder="Search" onkeyup="searchInLists(event)" on/>
+        <input type="checkbox" id="case-sensitivity" name="case"/>
+        <label id="case-label" for="case">Case sensitive</label>
+    </div>
 
     <form onsubmit ="addToDoItem(event)">
         <textarea class="form-control" id="input-area" rows="10" placeholder="Sample text"></textarea>
