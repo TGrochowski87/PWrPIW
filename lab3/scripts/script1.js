@@ -9,7 +9,6 @@ $(document).keydown(function (e) {
 
     if (lastDeleted === null) return;
 
-    debugger;
     $(lastDeleted.children[2]).on("click", (event) => {
       deleteHandler(event);
     });
@@ -86,9 +85,6 @@ const addList = () => {
 
   const header = document.createElement("h2");
   header.innerHTML = `List`;
-  // header.addEventListener("click", (event) => {
-  //   hideContent(event);
-  // });
   header.onclick = (event) => {
     hideContent(event);
   };
@@ -160,7 +156,6 @@ const deleteHandler = (event) => {
     .on("click", function () {
       parentOfDeleted = event.target.parentElement.parentElement;
       lastDeleted = event.target.parentElement;
-      debugger;
       $(event.target.parentElement).remove();
       $("#modal").css("display", "none");
     });
