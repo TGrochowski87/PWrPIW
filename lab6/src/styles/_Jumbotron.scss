@@ -1,0 +1,18 @@
+.home-page-jumbo {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("../assets/pizza-jumbo.jpg");
+  background-size: cover;
+
+  height: calc(100% - 68px);
+
+  .overlay {
+    background: rgba(0, 0, 0, 0.75);
+    color: white;
+  }
+}

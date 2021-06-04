@@ -1,0 +1,63 @@
+.compose-active {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.376);
+  width: 100%;
+  height: 100%;
+
+  z-index: 5;
+}
+
+.compose {
+  position: fixed;
+  background-color: rgb(251, 236, 206);
+
+  top: 10%;
+  left: 32%;
+
+  width: 36%;
+  height: 65%;
+
+  border-radius: 25px;
+  padding: 1rem;
+
+  z-index: 6;
+
+  border: rgb(209, 197, 172) solid 1px;
+
+  .custom-control-label::before {
+    background-color: #fff !important;
+  }
+
+  .custom-control-label::after {
+    background-color: #007bff !important;
+  }
+
+  .ingredients-chooser {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(65px, 1fr));
+    column-gap: 10px;
+    row-gap: 15px;
+  }
+
+  .ingredients-chooser-switches {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    column-gap: 10px;
+    row-gap: 15px;
+  }
+
+  .button-space {
+    position: absolute;
+    width: 100%;
+    bottom: 10%;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+
+    .btn {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
